@@ -5,12 +5,29 @@ body {
     padding: 0;
 }
 
-#task-list {
+#task-container {
     width: 80%;
     margin: 50px auto;
     background: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.task-list {
+    margin-bottom: 20px;
+}
+
+.task-list h2 {
+    margin: 0;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.task-list .tasks {
+    display: none;
+    padding: 10px;
 }
 
 .task {
