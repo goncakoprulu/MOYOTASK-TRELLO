@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#task-list {
+    width: 80%;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.task {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.task:last-child {
+    border-bottom: none;
+}
+
+.task h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.task p {
+    margin: 5px 0;
+}
